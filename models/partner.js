@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-//no Currency in partner but will be needed in promotions
-
 const partnerSchema = new Schema({
     name: {
         type: String,
